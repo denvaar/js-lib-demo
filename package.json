@@ -1,6 +1,6 @@
 {
   "name": "best-js-lib-demo",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/js-lib-demo.js",
   "description": "a demo of creating a js library",
   "author": "Denver Smith",
