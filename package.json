@@ -1,0 +1,8 @@
+{
+  "name": "js-lib-demo",
+  "version": "1.0.0",
+  "description": "a demo of creating a js library",
+  "main": "lib/index.js",
+  "author": "Denver Smith",
+  "license": "MIT"
+}
