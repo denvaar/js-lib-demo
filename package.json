@@ -1,8 +1,25 @@
 {
-  "name": "js-lib-demo",
-  "version": "1.0.0",
+  "name": "best-js-lib-demo",
+  "version": "1.0.5",
+  "main": "dist/js-lib-demo.js",
   "description": "a demo of creating a js library",
-  "main": "lib/index.js",
   "author": "Denver Smith",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --display-error-details",
+    "dev": "webpack --watch --display-error-details"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "prop-types": "^15.6.0",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
 }

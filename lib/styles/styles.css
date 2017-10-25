@@ -1,0 +1,13 @@
+.butt {
+  border: 1px solid salmon;
+  border-radius: 3px;
+  background: salmon;
+  color: #fff;
+  padding: 5px;
+  transition: background 0.3s ease;
+}
+
+.butt:hover {
+  background: #fff;
+  color: salmon;
+}
